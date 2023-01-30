@@ -1,0 +1,99 @@
+{
+  "id": "d089a682-72fd-4aa2-9760-f5c215a19b53",
+  "version": "2.0",
+  "name": "Test",
+  "url": "https://www.billboard.com",
+  "tests": [{
+    "id": "776529b8-10cf-44cf-9243-6ce2ef0c28e2",
+    "name": "Test",
+    "commands": [{
+      "id": "6751444c-b4b5-41b3-b808-c6664533f506",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a966ac8b-c553-4da4-9922-6e56d182d686",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1015",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5763f36f-73e2-427a-86fc-f0d48a1c74aa",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1060)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20b868d8-1be7-4f65-96e3-2ed7a8897ef3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1643)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d7ca4b6-69c2-403e-9f0c-3f2c686bdbec",
+      "comment": "",
+      "command": "click",
+      "target": "id=sidebar-overlay-lightbox-c9e6c70f-53b6-4149-9c27-80da8cfd6a88-1670793760567",
+      "targets": [
+        ["id=sidebar-overlay-lightbox-c9e6c70f-53b6-4149-9c27-80da8cfd6a88-1670793760567", "id"],
+        ["css=#sidebar-overlay-lightbox-c9e6c70f-53b6-4149-9c27-80da8cfd6a88-1670793760567", "css:finder"],
+        ["xpath=//div[@id='sidebar-overlay-lightbox-c9e6c70f-53b6-4149-9c27-80da8cfd6a88-1670793760567']", "xpath:attributes"],
+        ["xpath=//body/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0a41485-3bb6-4366-818f-1e0a9b0d317f",
+      "comment": "",
+      "command": "click",
+      "target": "id=sidebar-overlay-lightbox-c9e6c70f-53b6-4149-9c27-80da8cfd6a88-1670793760567",
+      "targets": [
+        ["id=sidebar-overlay-lightbox-c9e6c70f-53b6-4149-9c27-80da8cfd6a88-1670793760567", "id"],
+        ["css=#sidebar-overlay-lightbox-c9e6c70f-53b6-4149-9c27-80da8cfd6a88-1670793760567", "css:finder"],
+        ["xpath=//div[@id='sidebar-overlay-lightbox-c9e6c70f-53b6-4149-9c27-80da8cfd6a88-1670793760567']", "xpath:attributes"],
+        ["xpath=//body/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9ee10f3-e78e-4473-9ea4-42d70a70ca51",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=sidebar-overlay-lightbox-c9e6c70f-53b6-4149-9c27-80da8cfd6a88-1670793760567",
+      "targets": [
+        ["id=sidebar-overlay-lightbox-c9e6c70f-53b6-4149-9c27-80da8cfd6a88-1670793760567", "id"],
+        ["css=#sidebar-overlay-lightbox-c9e6c70f-53b6-4149-9c27-80da8cfd6a88-1670793760567", "css:finder"],
+        ["xpath=//div[@id='sidebar-overlay-lightbox-c9e6c70f-53b6-4149-9c27-80da8cfd6a88-1670793760567']", "xpath:attributes"],
+        ["xpath=//body/div[6]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b03f3c6-864e-47af-97f8-8acf81519364",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1306)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64e007f1-ea7b-4374-a593-516c1e70210c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "131bf4e1-095d-4f0a-b4c5-a332c963ac0f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["776529b8-10cf-44cf-9243-6ce2ef0c28e2"]
+  }],
+  "urls": ["https://www.billboard.com/"],
+  "plugins": []
+}

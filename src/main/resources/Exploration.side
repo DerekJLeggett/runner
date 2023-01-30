@@ -1,0 +1,544 @@
+{
+  "id": "6dc96637-9c1c-441c-8b7d-4d1e9aa98ec7",
+  "version": "2.0",
+  "name": "Exploration",
+  "url": "https://finance.yahoo.com/",
+  "tests": [{
+    "id": "9247330b-305e-4fcc-a0a5-c725e4da4fd0",
+    "name": "NPR",
+    "commands": [{
+      "id": "524ee59f-9add-4272-b555-06ebdd0ef253",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.npr.org/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d2ea423e-f099-4549-8f48-186b5e778d09",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1908x999",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a636df0-e89e-443b-adaf-d54d2c983a86",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "NPR - Breaking News, Analysis, Music, Arts & Podcasts : NPR",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b4ed55e-7bb9-4a94-ba4f-e563443b49a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu__item--culture > .menu__item-inner > a",
+      "targets": [
+        ["css=.menu__item--culture > .menu__item-inner > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Culture')]", "xpath:link"],
+        ["xpath=//section[@id='main-menu']/div/ul/li[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sections/culture/')]", "xpath:href"],
+        ["xpath=//li[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "356550e2-3cea-4b8c-9471-8c92f06b7dc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu__item--music > .menu__item-inner > a",
+      "targets": [
+        ["css=.menu__item--music > .menu__item-inner > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Music')]", "xpath:link"],
+        ["xpath=//section[@id='main-menu']/div/ul/li[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/music/')]", "xpath:href"],
+        ["xpath=//section/div/ul/li[4]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad926486-d1de-40d8-b469-51d3841b57de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu__item--shows-podcasts > .menu__item-inner > a",
+      "targets": [
+        ["css=.menu__item--shows-podcasts > .menu__item-inner > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Podcasts & Shows')]", "xpath:link"],
+        ["xpath=//section[@id='main-menu']/div/ul/li[5]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/podcasts-and-shows/')]", "xpath:href"],
+        ["xpath=//li[5]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4eba3608-d032-47e8-aaec-c9a41b66b38d",
+    "name": "PBS",
+    "commands": [{
+      "id": "211cc526-5d2a-477f-a4a9-aac2f378ae99",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.pbs.org/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96d39596-2731-40f3-ac0f-707157f9f2f7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1908x999",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11ae0d5e-0ac4-49bc-9584-7476ce9f0903",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "PBS: Public Broadcasting Service",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "883f7746-8405-4f92-897b-a1bea477ac12",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shows",
+      "targets": [
+        ["linkText=Shows", "linkText"],
+        ["css=.an-4_1", "css:finder"],
+        ["xpath=//a[contains(text(),'Shows')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/shows/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shows')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b15dd9c1-cdc5-4307-89af-3c2c823db884",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Shows",
+      "targets": [
+        ["linkText=Shows", "linkText"],
+        ["css=.an-4_1", "css:finder"],
+        ["xpath=//a[contains(text(),'Shows')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/shows/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Shows')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1292865-0077-43d0-97b4-c4f80d9a1047",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Explore",
+      "targets": [
+        ["linkText=Explore", "linkText"],
+        ["css=.nav-item--explore > .nav-item__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Explore')])[2]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/explore/')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d880fe36-7acd-4bd4-8699-1bbc148a837d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TV Schedules",
+      "targets": [
+        ["linkText=TV Schedules", "linkText"],
+        ["css=.nav-item--tv-schedules > .dropdown-trigger", "css:finder"],
+        ["xpath=//a[contains(text(),'TV Schedules')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://azpbs.org/schedule?utm_source=local_station_in_nav&utm_medium=full_schedule&utm_campaign=pbs_homepage')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'TV Schedules')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2828",
+      "windowTimeout": 2000
+    }, {
+      "id": "b75bc8f7-8a7c-48ce-a83d-c0ce2a5a7c3c",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4dd42e91-0662-4313-8d0b-446381c45a37",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2828}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40d61068-50f6-4b99-94c4-5a5bbd620ed2",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f8a5723-205d-4d4c-a5a4-b7dd73830a7f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a6a97f8f-7fc7-47ae-a405-8222bc25c324",
+    "name": "Harkins",
+    "commands": [{
+      "id": "1b2ffb12-7a98-437d-9fc0-7a9181f9987d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.harkins.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b47db847-c7ba-4f60-a71a-478456f6ec08",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1908x999",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de148427-687c-45f1-a5e5-bdabb2a380b5",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Harkins Theatres | Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f8f276f-6765-48b9-ab37-21fed6ab76e6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Movies",
+      "targets": [
+        ["linkText=Movies", "linkText"],
+        ["css=.cOGprs .title", "css:finder"],
+        ["xpath=//a[contains(text(),'Movies')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div[2]/div/div/div/div/div/ul/li/div/span/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/movies')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Movies')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "299b63c9-9416-44bd-a864-880e7827a96c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.styles__NavContain-sc-lk6yxx-19 .MoviesLandingHeader__MenuItem-sc-1b6lcl1-3:nth-child(2) > .MoviesLandingHeader__MenuItemLink-sc-1b6lcl1-4",
+      "targets": [
+        ["css=.styles__NavContain-sc-lk6yxx-19 .MoviesLandingHeader__MenuItem-sc-1b6lcl1-3:nth-child(2) > .MoviesLandingHeader__MenuItemLink-sc-1b6lcl1-4", "css:finder"],
+        ["xpath=//div[@id='__next']/div[4]/div/div/ul/li[2]/button", "xpath:idRelative"],
+        ["xpath=//li[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Coming Soon')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "544ce88c-fdb4-4ef8-93f2-380057fec4c1",
+    "name": "Weather.gov",
+    "commands": [{
+      "id": "ac1ba541-a041-4b20-b1da-86bb64aa70b9",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.weather.gov/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64b70942-ac38-414a-aee6-162ba96ecef4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1908x999",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f8af7ba-40f3-4a32-ad58-debf58a2caf2",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "National Weather Service",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1010be5-5c34-4e2c-833b-7e1e7f5e14bf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=FORECAST",
+      "targets": [
+        ["linkText=FORECAST", "linkText"],
+        ["css=li:nth-child(2) > .topMenuNavList > a", "css:finder"],
+        ["xpath=//a[contains(text(),'FORECAST')]", "xpath:link"],
+        ["xpath=//ul[@id='topnav']/li[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.weather.gov/forecastmaps']", "xpath:href"],
+        ["xpath=//li[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'FORECAST')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e907878-eb4a-4ab5-889a-7fff5ed135fa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=PAST WEATHER",
+      "targets": [
+        ["linkText=PAST WEATHER", "linkText"],
+        ["css=li:nth-child(3) > .topMenuNavList > a", "css:finder"],
+        ["xpath=//a[contains(text(),'PAST WEATHER')]", "xpath:link"],
+        ["xpath=//ul[@id='topnav']/li[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.weather.gov/wrh/climate/')]", "xpath:href"],
+        ["xpath=//li[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'PAST WEATHER')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0629786-8a84-4144-92e4-c5b8f59016a3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SAFETY",
+      "targets": [
+        ["linkText=SAFETY", "linkText"],
+        ["css=li:nth-child(4) > .topMenuNavList > a", "css:finder"],
+        ["xpath=//a[contains(text(),'SAFETY')]", "xpath:link"],
+        ["xpath=//ul[@id='topnav']/li[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.weather.gov/safety']", "xpath:href"],
+        ["xpath=//li[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SAFETY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45e9384c-d0ee-4624-9ab3-a26af5cc01df",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=INFORMATION",
+      "targets": [
+        ["linkText=INFORMATION", "linkText"],
+        ["css=li:nth-child(5) > .topMenuNavList > a", "css:finder"],
+        ["xpath=//a[contains(text(),'INFORMATION')]", "xpath:link"],
+        ["xpath=//ul[@id='topnav']/li[5]/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.weather.gov/informationcenter']", "xpath:href"],
+        ["xpath=//li[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'INFORMATION')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94c88a29-36b0-428e-abf0-ab16c0dc7537",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=EDUCATION",
+      "targets": [
+        ["linkText=EDUCATION", "linkText"],
+        ["css=li:nth-child(6) > .topMenuNavList > a", "css:finder"],
+        ["xpath=//a[contains(text(),'EDUCATION')]", "xpath:link"],
+        ["xpath=//ul[@id='topnav']/li[6]/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.weather.gov/education']", "xpath:href"],
+        ["xpath=//li[6]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'EDUCATION')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb5079f2-5f48-4f27-9610-d12005852d16",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=NEWS",
+      "targets": [
+        ["linkText=NEWS", "linkText"],
+        ["css=li:nth-child(7) > .topMenuNavList > a", "css:finder"],
+        ["xpath=//a[contains(text(),'NEWS')]", "xpath:link"],
+        ["xpath=//ul[@id='topnav']/li[7]/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.weather.gov/news/']", "xpath:href"],
+        ["xpath=//li[7]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'NEWS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ad3764b5-21bc-4496-a517-899b6ff37c4f",
+    "name": "Yahoo-Finance",
+    "commands": [{
+      "id": "962bc552-99fa-403e-a088-b9a48abd7067",
+      "comment": "",
+      "command": "open",
+      "target": "https://finance.yahoo.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e447da03-b665-49ee-8491-caeed9dcf9eb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1908x999",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba169926-32e5-492b-b731-434d38a2ff62",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Yahoo Finance - Stock Market Live, Quotes, Business & Finance News",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc43bda9-c6eb-4285-ba2f-19f692d885d9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Watchlists",
+      "targets": [
+        ["linkText=Watchlists", "linkText"],
+        ["css=.nr-applet-main-nav-item:nth-child(1) > .nr-applet-nav-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Watchlists')]", "xpath:link"],
+        ["xpath=//div[@id='Nav-0-DesktopNav-0-DesktopNav']/div/div[3]/div/nav/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/watchlists/')]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Watchlists')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9518100-ef54-4ec9-a8c3-887b6c9c3451",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Portfolio",
+      "targets": [
+        ["linkText=My Portfolio", "linkText"],
+        ["css=.nr-applet-main-nav-item:nth-child(2) > .nr-applet-nav-item", "css:finder"],
+        ["xpath=//a[contains(text(),'My Portfolio')]", "xpath:link"],
+        ["xpath=//div[@id='Nav-0-DesktopNav-0-DesktopNav']/div/div[3]/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/portfolios/')]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Portfolio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d450f50-ea24-4440-977a-22e60fb70edb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Crypto",
+      "targets": [
+        ["linkText=Crypto", "linkText"],
+        ["css=.nr-applet-main-nav-item:nth-child(3) > .nr-applet-nav-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Crypto')]", "xpath:link"],
+        ["xpath=//div[@id='Nav-0-DesktopNav-0-DesktopNav']/div/div[3]/div/nav/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/crypto/')]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Crypto')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "526cf73b-009a-423c-99d2-82bb96c729cf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Yahoo Finance Plus",
+      "targets": [
+        ["linkText=Yahoo Finance Plus", "linkText"],
+        ["css=.opened-subnav > .nr-applet-nav-item", "css:finder"],
+        ["xpath=//a[contains(text(),'Yahoo Finance Plus')]", "xpath:link"],
+        ["xpath=//div[@id='Nav-0-DesktopNav-0-DesktopNav']/div/div[3]/div/nav/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/plus-dashboard?ncid=dcm_306158762_490172245_127172993')]", "xpath:href"],
+        ["xpath=//div[3]/div/nav/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Yahoo Finance Plus')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "29c555ea-483e-40f2-a408-309225355065",
+    "name": "WhiteHouse",
+    "commands": [{
+      "id": "cebac044-ff7c-4835-a4df-0d0ccc669941",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.whitehouse.gov/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "130d0bd8-3511-42e5-a1ec-fee985875961",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1908x999",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "227a804a-12e4-4465-b147-47bea049bca3",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "The White House",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b737cc2e-447f-4981-8a31-b15f61dd9a37",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Administration",
+      "targets": [
+        ["linkText=Administration", "linkText"],
+        ["css=#menu-item-61 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Administration')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-61']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.whitehouse.gov/administration/')]", "xpath:href"],
+        ["xpath=//ul[2]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Administration')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd966a0f-d062-4935-aa0b-a12257688e1a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Priorities",
+      "targets": [
+        ["linkText=Priorities", "linkText"],
+        ["css=#menu-item-64 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Priorities')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-64']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.whitehouse.gov/priorities/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Priorities')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "42e21780-1adf-4328-8ff6-728a41873e74",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=The Record",
+      "targets": [
+        ["linkText=The Record", "linkText"],
+        ["css=#menu-item-65469 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'The Record')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-65469']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.whitehouse.gov/therecord/')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'The Record')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9b909a4-968c-42bc-a17e-36cc474a5e46",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Briefing Room",
+      "targets": [
+        ["linkText=Briefing Room", "linkText"],
+        ["css=#menu-item-2787 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Briefing Room')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-2787']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.whitehouse.gov/briefing-room/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Briefing Room')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09f58729-0ef2-4407-afa9-f893f2e94f40",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Blog",
+      "targets": [
+        ["linkText=Blog", "linkText"],
+        ["css=li:nth-child(2) > .caption-text", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//main[@id='content']/section/div/div/div/div/nav/ul/li/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.whitehouse.gov/briefing-room/blog/')]", "xpath:href"],
+        ["xpath=//section/div/div/div/div/nav/ul/li/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Blog')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fe41f1df-5802-42e7-accd-df9d885ad332",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9247330b-305e-4fcc-a0a5-c725e4da4fd0", "4eba3608-d032-47e8-aaec-c9a41b66b38d", "a6a97f8f-7fc7-47ae-a405-8222bc25c324", "544ce88c-fdb4-4ef8-93f2-380057fec4c1", "29c555ea-483e-40f2-a408-309225355065", "ad3764b5-21bc-4496-a517-899b6ff37c4f"]
+  }],
+  "urls": ["https://www.npr.org/", "https://www.whitehouse.gov/", "https://finance.yahoo.com/"],
+  "plugins": []
+}

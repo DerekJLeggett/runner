@@ -1,0 +1,166 @@
+{
+  "id": "4a68cd79-8038-4402-b082-954f199679d0",
+  "version": "2.0",
+  "name": "GloriousCreationsAZ",
+  "url": "",
+  "tests": [{
+    "id": "e5aa2190-209d-4629-8803-785136c5bb57",
+    "name": "GloriousCreations",
+    "commands": [{
+      "id": "d3d7933b-64cf-40aa-96bb-ac55ec8e6c8b",
+      "comment": "",
+      "command": "open",
+      "target": "https://gloriouscreationsaz.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f259966-81e2-47ad-ada3-57cc57ce4170",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(1) .img-fluid",
+      "targets": [
+        ["css=.col:nth-child(1) .img-fluid", "css:finder"],
+        ["xpath=//img[@alt='Facebook']", "xpath:img"],
+        ["xpath=//div/div/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win964",
+      "windowTimeout": 2000
+    }, {
+      "id": "37b0ed4e-5fb8-4a78-93cb-4801c48ece7b",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e3354a33-67a6-4e47-bdfa-4207832a6a4b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win964}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4b6b4fd-2093-4e22-a0f3-449a52b708fc",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bdd99788-8a03-4a28-a355-07e4b534bc70",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01e4a40c-b71c-4b47-b671-1dd7e8fd7599",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(2) .img-fluid",
+      "targets": [
+        ["css=.col:nth-child(2) .img-fluid", "css:finder"],
+        ["xpath=//img[@alt='Instagram']", "xpath:img"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5404",
+      "windowTimeout": 2000
+    }, {
+      "id": "f6002645-3080-4475-be65-d3db0fbc749b",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5404}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a6a8457-dcf8-49cb-be68-4845aad8b96a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee3c8733-0946-4346-8f0f-29bfad962e7a",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a4e90be-7bcb-48f3-8864-9ad31ba71016",
+      "comment": "",
+      "command": "click",
+      "target": "id=nav-media-tab",
+      "targets": [
+        ["id=nav-media-tab", "id"],
+        ["linkText=Pictures", "linkText"],
+        ["xpath=//a[contains(text(),'Pictures')]", "xpath:link"],
+        ["xpath=//a[@id='nav-media-tab']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-tab']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/media')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Pictures')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bfdcc93-9dd4-4931-a71f-10cdac2dc347",
+      "comment": "",
+      "command": "click",
+      "target": "id=category",
+      "targets": [
+        ["id=category", "id"],
+        ["css=#category", "css:finder"],
+        ["xpath=//select[@id='category']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0830dc43-b698-4543-98a4-dcb68830adeb",
+      "comment": "",
+      "command": "select",
+      "target": "id=category",
+      "targets": [],
+      "value": "label=Sports"
+    }, {
+      "id": "4814d65f-ff32-4a32-81e8-a9ad399ac025",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "049bd49b-9753-4604-b7cc-d052385ce362",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=(//a[@id='nav-media-tab'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='nav-tab']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/about')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }],
+  "suites": [{
+    "id": "db2d46ee-5e92-4264-99e1-337fa2dec89e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["70ae0ad6-2246-4cad-8ac7-0d8428813670"]
+  }],
+  "urls": [],
+  "plugins": []
+}
