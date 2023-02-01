@@ -574,6 +574,13 @@
       "targets": [],
       "value": "value=${countryValue}"
     }, {
+      "id": "46701b0e-4c74-48cc-8ee0-5808893769df",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "xpath=//img[@class='img-fluid']",
+      "targets": [],
+      "value": "30000"
+    }, {
       "id": "1822768f-a07c-45ef-ac64-f8fce1a64678",
       "comment": "",
       "command": "waitForElementVisible",
@@ -800,6 +807,13 @@
       "target": "id=characterSelect",
       "targets": [],
       "value": "value=${characterValue}"
+    }, {
+      "id": "2af7ada2-e1de-499d-8e43-94c0fad3a649",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "xpath=//img[@class='img-fluid']",
+      "targets": [],
+      "value": "30000"
     }, {
       "id": "6a1678c3-b415-4d02-97fa-f443c3464818",
       "comment": "",
@@ -1111,6 +1125,13 @@
       "targets": [],
       "value": "value=${stateValue}"
     }, {
+      "id": "addad52e-2e6f-466a-b071-cd72fdfe8b0a",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "xpath=//img[@class='img-fluid img-thumbnail']",
+      "targets": [],
+      "value": "30000"
+    }, {
       "id": "c9eafc66-4868-4e07-974f-92f179f02de4",
       "comment": "",
       "command": "end",
@@ -1162,6 +1183,13 @@
         ["xpath=//a[7]/img", "xpath:position"]
       ],
       "value": ""
+    }, {
+      "id": "37c06587-f73a-4276-a72b-681dbe80b24b",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "xpath=//div[@class='progress']",
+      "targets": [],
+      "value": "30000"
     }]
   }],
   "suites": [{
